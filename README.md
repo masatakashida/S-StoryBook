@@ -1,24 +1,59 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サービス
 
-Things you may want to cover:
+-
 
-* Ruby version
+### アプリケーションサーバー
 
-* System dependencies
+- unicorn
 
-* Configuration
+### デプロイ
 
-* Database creation
+- capistrano
 
-* Database initialization
+### ユーザー認証
 
-* How to run the test suite
+- sorcery
 
-* Services (job queues, cache servers, search engines, etc.)
+### CSSフレームワーク
 
-* Deployment instructions
 
-* ...
+### アップロード
+
+- carrierwave
+
+### 日付/時間フォーマット
+
+- config/initializers/time_formats.rb にあります
+---
+
+## Ruby version
+
+- See `.ruby-version`.
+
+## Rails version
+
+- See `Gemfile`.
+
+## Project initiation
+
+- リポジトリのクローン
+
+```bash
+$ git clone git@github.com:masatakashida/S-StoryBook.git
+```
+
+- Gemのインストール
+
+```bash
+$ bundle install --path vendor/bundle
+```
+
+## API
+
+- [API](/docs/api.md)
+
+## テーブル定義
+
+- [テーブル定義](/docs/db.md)
