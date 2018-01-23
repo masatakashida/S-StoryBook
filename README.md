@@ -23,11 +23,6 @@
 
 - carrierwave
 
-### 日付/時間フォーマット
-
-- config/initializers/time_formats.rb にあります
----
-
 ## Ruby version
 
 - See `.ruby-version`.
